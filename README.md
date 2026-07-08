@@ -12,7 +12,6 @@ This project contains automated UI tests for the MyTravaly admin module, focusin
 
 ## Project Structure
 
-```
 MyTravalyAutomation/
 ├── pages/                    # Page Object Models
 │   ├── admin_module_page.py  # Admin module page interactions
@@ -34,7 +33,8 @@ MyTravalyAutomation/
 ├── requirements.txt          # Python dependencies
 ├── pytest.ini                # Pytest configuration
 └── README.md                 # This file
-```
+
+
 
 ## Requirements
 
@@ -42,47 +42,24 @@ MyTravalyAutomation/
 - Selenium
 - Pytest
 
-See `requirements.txt` for full dependency list.
+
 
 ## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/nazitora/Automatic-Testing-Mytravaly.git
-cd MyTravalyAutomation
-```
-
-2. Install dependencies:
-```bash
+ Install dependencies:
 pip install -r requirements.txt
-```
+
 
 ## Running Tests
 
 ### Run all tests:
-```bash
 pytest -v
-```
 
-### Run regression tests:
-```bash
-pytest -m regression -v
-```
-
-### Run smoke tests:
-```bash
-pytest -m smoke -v
-```
-
-### Run tests with HTML report:
-```bash
-pytest --html=reports/report.html --self-contained-html
-```
-
-## Test Categories
-
-- **Regression Tests**: Comprehensive test suite marked with `@pytest.mark.regression`
-- **Smoke Tests**: Quick sanity checks marked with `@pytest.mark.smoke`
+### Run tests with  report:
+pytest -v \
+  --html=reports/report.html \
+  --self-contained-html \
+  --json-report \
+  --json-report-file=reports/report.json
 
 ## Key Test Cases
 
@@ -105,26 +82,7 @@ Configuration settings can be found in `utils/config.py`. Update this file to co
 The project follows the Page Object Model pattern:
 - `AdminModulePage`: Encapsulates interactions with the admin module
 
-## Contributing
 
-1. Create a new branch for your changes
-2. Write tests following the existing pattern
-3. Ensure all tests pass before pushing
-4. Commit with meaningful messages
-5. Push to GitHub
 
-## Reporting Issues
 
-If you find any issues, please open an issue on GitHub with:
-- Description of the problem
-- Steps to reproduce
-- Expected vs actual behavior
-- Screenshots (if applicable)
 
-## License
-
-[Add your license here]
-
-## Contact
-
-For questions or support, please reach out to the project maintainers.
