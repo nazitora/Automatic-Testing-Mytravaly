@@ -11,7 +11,7 @@ This project contains automated UI tests for the MyTravaly admin module, focusin
 - Property tab navigation
 
 ## Project Structure
-
+```
 MyTravalyAutomation/
 ├── pages/                    # Page Object Models
 │   ├── admin_module_page.py  # Admin module page interactions
@@ -33,7 +33,7 @@ MyTravalyAutomation/
 ├── requirements.txt          # Python dependencies
 ├── pytest.ini                # Pytest configuration
 └── README.md                 # This file
-
+```
 
 
 ## Requirements
@@ -46,20 +46,26 @@ MyTravalyAutomation/
 
 ## Installation
  Install dependencies:
+ ```
 pip install -r requirements.txt
+```
 
 
 ## Running Tests
 
 ### Run all tests:
+```
 pytest -v
+```
 
 ### Run tests with  report:
+```
 pytest -v \
   --html=reports/report.html \
   --self-contained-html \
   --json-report \
   --json-report-file=reports/report.json
+```
 
 ## Key Test Cases
 
