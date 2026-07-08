@@ -1,0 +1,129 @@
+{
+  "base_url": "https://mtindia-v2-admin.onrender.com",
+  "started_at": "2026-07-08T07:47:38.684391+00:00",
+  "finished_at": "2026-07-08T07:48:12.454140+00:00",
+  "duration_seconds": 33.77,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0
+  },
+  "tests": [
+    {
+      "nodeid": "tests/test_admin_interactions.py::test_admin_module_search_flow_navigates_to_results",
+      "name": "test_admin_module_search_flow_navigates_to_results",
+      "file": "/Users/apple/MyTravalyAutomation/tests/test_admin_interactions.py",
+      "markers": [
+        "regression"
+      ],
+      "status": "passed",
+      "duration_seconds": 5.525,
+      "message": ""
+    },
+    {
+      "nodeid": "tests/test_admin_interactions.py::test_admin_module_date_picker_selects_date_range",
+      "name": "test_admin_module_date_picker_selects_date_range",
+      "file": "/Users/apple/MyTravalyAutomation/tests/test_admin_interactions.py",
+      "markers": [
+        "regression"
+      ],
+      "status": "passed",
+      "duration_seconds": 3.579,
+      "message": ""
+    },
+    {
+      "nodeid": "tests/test_admin_interactions.py::test_admin_module_guest_selector_updates_guest_count",
+      "name": "test_admin_module_guest_selector_updates_guest_count",
+      "file": "/Users/apple/MyTravalyAutomation/tests/test_admin_interactions.py",
+      "markers": [
+        "regression"
+      ],
+      "status": "passed",
+      "duration_seconds": 3.55,
+      "message": ""
+    },
+    {
+      "nodeid": "tests/test_admin_interactions.py::test_admin_module_property_tabs_switch_active_content",
+      "name": "test_admin_module_property_tabs_switch_active_content",
+      "file": "/Users/apple/MyTravalyAutomation/tests/test_admin_interactions.py",
+      "markers": [
+        "regression"
+      ],
+      "status": "passed",
+      "duration_seconds": 4.235,
+      "message": ""
+    },
+    {
+      "nodeid": "tests/test_admin_routes.py::test_admin_login_dashboard_routes_are_not_exposed[login]",
+      "name": "test_admin_login_dashboard_routes_are_not_exposed[login]",
+      "file": "/Users/apple/MyTravalyAutomation/tests/test_admin_routes.py",
+      "markers": [
+        "parametrize",
+        "regression"
+      ],
+      "status": "passed",
+      "duration_seconds": 0.717,
+      "message": ""
+    },
+    {
+      "nodeid": "tests/test_admin_routes.py::test_admin_login_dashboard_routes_are_not_exposed[admin]",
+      "name": "test_admin_login_dashboard_routes_are_not_exposed[admin]",
+      "file": "/Users/apple/MyTravalyAutomation/tests/test_admin_routes.py",
+      "markers": [
+        "parametrize",
+        "regression"
+      ],
+      "status": "passed",
+      "duration_seconds": 0.595,
+      "message": ""
+    },
+    {
+      "nodeid": "tests/test_admin_routes.py::test_admin_login_dashboard_routes_are_not_exposed[dashboard]",
+      "name": "test_admin_login_dashboard_routes_are_not_exposed[dashboard]",
+      "file": "/Users/apple/MyTravalyAutomation/tests/test_admin_routes.py",
+      "markers": [
+        "parametrize",
+        "regression"
+      ],
+      "status": "passed",
+      "duration_seconds": 0.663,
+      "message": ""
+    },
+    {
+      "nodeid": "tests/test_admin_smoke.py::test_admin_module_root_loads_render_deployment",
+      "name": "test_admin_module_root_loads_render_deployment",
+      "file": "/Users/apple/MyTravalyAutomation/tests/test_admin_smoke.py",
+      "markers": [
+        "smoke"
+      ],
+      "status": "passed",
+      "duration_seconds": 1.91,
+      "message": ""
+    },
+    {
+      "nodeid": "tests/test_admin_smoke.py::test_admin_module_search_controls_render",
+      "name": "test_admin_module_search_controls_render",
+      "file": "/Users/apple/MyTravalyAutomation/tests/test_admin_smoke.py",
+      "markers": [
+        "smoke"
+      ],
+      "status": "passed",
+      "duration_seconds": 1.919,
+      "message": ""
+    },
+    {
+      "nodeid": "tests/test_admin_smoke.py::test_admin_module_popular_property_tabs_render",
+      "name": "test_admin_module_popular_property_tabs_render",
+      "file": "/Users/apple/MyTravalyAutomation/tests/test_admin_smoke.py",
+      "markers": [
+        "smoke"
+      ],
+      "status": "passed",
+      "duration_seconds": 2.419,
+      "message": ""
+    }
+  ],
+  "exitstatus": 0
+}
